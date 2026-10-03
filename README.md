@@ -23,7 +23,7 @@ Demostrar que un usuario de la VLAN 10 puede consultar un servidor web por HTTPS
 
 El laboratorio se ejecuta en GNS3. La GNS3 VM hospeda FortiGate, Switch-A y los contenedores. Los routers Cisco del escenario se ejecutan en un compute externo. La dirección de administración de la VM no forma parte del tráfico simulado.
 
-![Topología y direccionamiento](assets/diagrams/topologia.svg)
+![Topología y direccionamiento](assets/diagrams/topology.png)
 
 ```mermaid
 flowchart LR

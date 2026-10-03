@@ -13,7 +13,7 @@
 
 <div align="center">
   <a href="https://www.youtube.com/watch?v=j-0CpvajZGw">
-    <img src="https://www.youtube.com/watch?v=j-0CpvajZGw/maxresdefault.jpg" alt="Ver video" width="700">
+    <img src="https://img.youtube.com/vi/j-0CpvajZGw/hqdefault.jpg" alt="Ver video" width="700">
   </a>
 </div>
 

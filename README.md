@@ -1,13 +1,21 @@
-# Seguridad de Redes: HTTPS público y SSH mediante SSL-VPN en GNS3
+<h1 align="center">🔐 HTTPS Público y SSH mediante SSL-VPN — GNS3</h1>
 
-## 🎬 Video demostrativo — hasta 6 minutos
+<p align="center">
+  <a href="https://github.com/fredcastillo/https-ssh-ssl-vpn"><img src="https://img.shields.io/badge/Laboratorio-GNS3-7d5fff?style=for-the-badge" alt="GNS3"></a>
+  <a href="https://github.com/fredcastillo/https-ssh-ssl-vpn"><img src="https://img.shields.io/badge/Firewall-FortiGate-e11d48?style=for-the-badge" alt="FortiGate"></a>
+  <a href="https://github.com/fredcastillo/https-ssh-ssl-vpn"><img src="https://img.shields.io/badge/VPN-SSL--VPN%20Cliente--a--Sitio-9C27B0?style=for-the-badge" alt="SSL-VPN"></a>
+  <a href="https://github.com/fredcastillo/https-ssh-ssl-vpn"><img src="https://img.shields.io/badge/Acceso-HTTPS%20Público%20%7C%20SSH%20Privado-FF6F00?style=for-the-badge" alt="Separación de acceso"></a>
+  <a href="https://github.com/fredcastillo/https-ssh-ssl-vpn"><img src="https://img.shields.io/badge/Cliente-openfortivpn%201.17.1-4CAF50?style=for-the-badge" alt="openfortivpn"></a>
+  <a href="https://github.com/fredcastillo/https-ssh-ssl-vpn"><img src="https://img.shields.io/badge/Estado-Verificado-brightgreen?style=for-the-badge" alt="Estado"></a>
+</p>
 
-**Pendiente de grabación.** Aquí debe aparecer el enlace al video al publicar el repositorio. No se ha inventado una grabación ni un enlace.
+## 🎬 Video demostrativo — 
 
-**[Guion completo de 5:40, con clics GUI, comandos y resultados](video/GUION-5m40s.md)** · **[Preparación de la grabación](video/PREPARACION.md)**
-
-<!-- VIDEO: sustituir este bloque por [![Ver demostración](assets/images/portada-video.svg)](URL_REAL_DEL_VIDEO) cuando exista el video. -->
-![Portada de la demostración pendiente](assets/images/portada-video.svg)
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=j-0CpvajZGw">
+    <img src="https://www.youtube.com/watch?v=j-0CpvajZGw/maxresdefault.jpg" alt="Ver video" width="700">
+  </a>
+</div>
 
 ## Propósito del laboratorio
 
@@ -95,4 +103,13 @@ video/        Guion cronometrado y preparación
 .github/      Verificación documental al publicar en GitHub
 ```
 
-Las contraseñas, claves privadas, paquetes propietarios, discos qcow2 y backups privados quedan fuera del repositorio. Los exports sanitizados documentan la configuración y requieren volver a introducir secretos para restaurar equipos. No hay un archivo `.gns3` del controlador disponible en la VM; el diagrama y el inventario documentan la topología existente sin fabricar un proyecto importable.
+## 👨‍💻 Autor
+
+**Fred Castillo**  
+*Estudiante de Tecnólogo en Seguridad Informática*  
+*Aspirante a Red Team | Seguridad Ofensiva*
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Fred%20Castillo-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/fredcastillo11/)
+[![GitHub](https://img.shields.io/badge/GitHub-fredcastillo-100000?style=for-the-badge&logo=github)](https://github.com/fredcastillo)
+
+---

@@ -1,0 +1,5 @@
+default via 10.21.75.1 dev eth0 
+10.21.75.0/25 dev eth0 proto kernel scope link src 10.21.75.10 
+10.21.75.130 dev ppp0 scope link 
+169.254.2.1 dev ppp0 proto kernel scope link src 10.212.134.200 
+203.0.113.26 via 10.21.75.1 dev eth0 

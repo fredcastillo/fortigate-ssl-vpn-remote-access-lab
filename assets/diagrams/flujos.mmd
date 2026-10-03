@@ -1,0 +1,6 @@
+flowchart LR
+  U[Usuario sin VPN] -->|HTTPS 443| V[VIP 203.0.113.26]
+  V -->|HTTPS 443| W[Servidor 10.21.75.130]
+  U -. SSH privado: timeout .-> W
+  C[Usuario con VPN] -->|SSL-VPN 10443| F[FortiGate ssl.root]
+  F -->|SSH 22 sin NAT| W

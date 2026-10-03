@@ -1,0 +1,50 @@
+{
+  "collected_utc": "2026-10-03T02:18:39.510399+00:00",
+  "project_id": "ea145aa2-7392-4eb2-b990-4b81dd21a346",
+  "nodes": [
+    {
+      "name": "CLIENTE-FORTICLIENT-1",
+      "role": "client",
+      "image_reference": "forticlient-lite:7.2-fix3",
+      "image_id": "sha256:7559a7f0d82714a225097da0023fb802dcc797ccce3c3195ea5cc9e8c6245302",
+      "privileged": true,
+      "startup": [
+        "/usr/local/bin/start.sh"
+      ],
+      "container_id": "2b334b804f17"
+    },
+    {
+      "name": "web-server-lab-1",
+      "role": "server",
+      "image_reference": "web-server-lab:latest",
+      "image_id": "sha256:802ae6129975a424e1cdbddeb4ae7e73a091185933787b9439baeef33e127d52",
+      "privileged": true,
+      "startup": [
+        "/start-network.sh"
+      ],
+      "container_id": "e0d40be7e35d"
+    },
+    {
+      "name": "Browser-PC-1",
+      "role": "browsers/users",
+      "image_reference": "browser-gns3vnc-lab:latest",
+      "image_id": "sha256:b6feb0ba8faebd226f8163c44660f56d18f87ddfbbd085096bc48ca4f62f6580",
+      "privileged": true,
+      "startup": [
+        "/start-network.sh"
+      ],
+      "container_id": "1aca5fa65994"
+    },
+    {
+      "name": "browser-2",
+      "role": "browsers/aux",
+      "image_reference": "browser-gns3vnc-lab:latest",
+      "image_id": "sha256:b6feb0ba8faebd226f8163c44660f56d18f87ddfbbd085096bc48ca4f62f6580",
+      "privileged": true,
+      "startup": [
+        "/start-network.sh"
+      ],
+      "container_id": "904a1a1fdb2e"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "time_utc": "2026-10-03T01:49:25.656653+00:00",
+  "source_node": "CLIENTE-FORTICLIENT",
+  "client": "openfortivpn",
+  "vpn_status": "VPN: CONNECTED (openfortivpn)\nppp0             UNKNOWN        10.212.134.200 peer 169.254.2.1/32 \n10.21.75.130 dev ppp0 src 10.212.134.200 uid 0 \n    cache",
+  "ssh": "uid=1000(labssh) gid=1000(labssh) groups=1000(labssh)\nweb-server-lab-1\n10.212.134.200 51308 10.21.75.130 22",
+  "traceroute_tcp_22": "traceroute to 10.21.75.130 (10.21.75.130), 30 hops max, 60 byte packets\n 1  *\n 2  10.21.75.130  64.820 ms",
+  "fortigate_gui_evidence": "fortigate-ssl-vpn-monitor.png",
+  "without_vpn_evidence": "without-vpn-final.json"
+}

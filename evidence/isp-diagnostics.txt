@@ -1,0 +1,32 @@
+
+Router-ISP#
+show ip route
+Codes: L - local, C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area 
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route, H - NHRP, l - LISP
+       + - replicated route, % - next hop override
+
+Gateway of last resort is not set
+
+      203.0.113.0/24 is variably subnetted, 4 subnets, 2 masks
+C        203.0.113.20/30 is directly connected, GigabitEthernet1/0
+L        203.0.113.22/32 is directly connected, GigabitEthernet1/0
+C        203.0.113.24/30 is directly connected, GigabitEthernet2/0
+L        203.0.113.25/32 is directly connected, GigabitEthernet2/0
+Router-ISP#
+show ip interface brief
+Interface              IP-Address      OK? Method Status                Protocol
+FastEthernet0/0        unassigned      YES NVRAM  administratively down down    
+GigabitEthernet1/0     203.0.113.22    YES NVRAM  up                    up      
+GigabitEthernet2/0     203.0.113.25    YES NVRAM  up                    up      
+FastEthernet3/0        unassigned      YES NVRAM  administratively down down    
+FastEthernet3/1        unassigned      YES NVRAM  administratively down down    
+FastEthernet4/0        unassigned      YES NVRAM  administratively down down    
+FastEthernet4/1        unassigned      YES NVRAM  administratively down down    
+FastEthernet5/0        unassigned      YES NVRAM  administratively down down    
+FastEthernet5/1        unassigned      YES NVRAM  administratively down down    
+Router-ISP#

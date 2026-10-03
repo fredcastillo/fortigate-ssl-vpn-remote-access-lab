@@ -1,0 +1,39 @@
+#!/usr/bin/env bash
+set -Eeuo pipefail
+case "${1:-status}" in
+  connect)
+    if [ "$(id -u)" != 0 ]; then
+      echo 'Ejecuta lab-vpn connect como root del nodo: PPP necesita privilegios.' >&2
+      exit 1
+    fi
+    if pgrep -x openfortivpn >/dev/null; then
+      echo 'Ya hay un cliente openfortivpn activo.' >&2
+      exit 1
+    fi
+    export OPENSSL_CONF=/etc/openfortivpn/lab-tls.cnf
+    exec openfortivpn -c /etc/openfortivpn/lab.conf
+    ;;
+  status)
+    if pgrep -x openfortivpn >/dev/null &&
+       ip -o -4 addr show ppp0 2>/dev/null | grep -Eq 'inet 10\.212\.134\.(20[0-9]|210)( |/)' &&
+       ip route get 10.21.75.130 | grep -q 'dev ppp0'; then
+      echo 'VPN: CONNECTED (openfortivpn)'
+      ip -br -4 addr show ppp0
+      ip route get 10.21.75.130
+    else
+      echo 'VPN: DISCONNECTED'
+      exit 1
+    fi
+    ;;
+  disconnect)
+    if [ "$(id -u)" != 0 ]; then
+      echo 'Ejecuta lab-vpn disconnect como root del nodo.' >&2
+      exit 1
+    fi
+    pkill -TERM -x openfortivpn
+    ;;
+  *)
+    echo 'Uso: lab-vpn {connect|status|disconnect}' >&2
+    exit 2
+    ;;
+esac

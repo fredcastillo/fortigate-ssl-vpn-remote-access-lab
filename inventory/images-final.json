@@ -1,0 +1,14 @@
+{
+  "time_utc": "2026-10-03T01:51:23.679114+00:00",
+  "images": {
+    "forticlient-vpn-lab:tls10-ready": "sha256:6e53d1ca9821385a89f1d24f34b1ceb59767ec7a6d5304ba5b3eccb11ab9b727",
+    "forticlient-lite:7.2-fix3": "sha256:6e53d1ca9821385a89f1d24f34b1ceb59767ec7a6d5304ba5b3eccb11ab9b727",
+    "web-server-lab:ssh-enabled": "sha256:c99f13cc6109d6ad0b6cc45f5bfde022ad6d5301480ab511397dc78791297fef",
+    "web-server-lab:latest": "sha256:c99f13cc6109d6ad0b6cc45f5bfde022ad6d5301480ab511397dc78791297fef",
+    "lab-backup/client-image-original:20261003": "sha256:7559a7f0d82714a225097da0023fb802dcc797ccce3c3195ea5cc9e8c6245302",
+    "lab-backup/web-image-original:20261003": "sha256:802ae6129975a424e1cdbddeb4ae7e73a091185933787b9439baeef33e127d52",
+    "lab-backup/client-pre-vpnonly:20261003": "sha256:5d1ae0e318b07f2e53290258d98aaeecc23379445700800962f33b7862ceccd8",
+    "lab-backup/web-pre-ssh:20261003": "sha256:6a8d6c5c492381fe5ee8a0d1f19957ecdc67f895c6b4ad32fbceee8faf55dce8",
+    "lab-backup/aux-before-gui:20261003": "sha256:176ced9b8b1336e6fb86bcbb2d6619d7791e3d76e8eeae01e302232b9e81d235"
+  }
+}

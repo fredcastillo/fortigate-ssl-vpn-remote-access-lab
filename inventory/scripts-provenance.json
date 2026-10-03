@@ -1,0 +1,210 @@
+[
+  {
+    "source": "/home/gns3/ssl-vpn-minimal-20261003/download-vpn-only.py",
+    "repository": "scripts/originales/sesion-20261003/download-vpn-only.py",
+    "status": "script utilizado o versión final utilizada",
+    "sha256_original": "1d3548868d5a97e4240204f91691606303a2d35ed068b64f70858b5825cc09df",
+    "sha256_in_repo": "1d3548868d5a97e4240204f91691606303a2d35ed068b64f70858b5825cc09df",
+    "sanitized": false
+  },
+  {
+    "source": "/home/gns3/ssl-vpn-minimal-20261003/install-vpn-only.sh",
+    "repository": "scripts/originales/sesion-20261003/install-vpn-only.sh",
+    "status": "script utilizado o versión final utilizada",
+    "sha256_original": "026c0d78bbc8f385ab252685bbea8fc7ed0b2ac0961033d4f0c7af43904064d5",
+    "sha256_in_repo": "026c0d78bbc8f385ab252685bbea8fc7ed0b2ac0961033d4f0c7af43904064d5",
+    "sanitized": false
+  },
+  {
+    "source": "/home/gns3/ssl-vpn-minimal-20261003/restore-server-ssh.py",
+    "repository": "scripts/originales/sesion-20261003/restore-server-ssh.py",
+    "status": "script utilizado o versión final utilizada",
+    "sha256_original": "2254ae0c0463eefc230bbd4d5dd4e0f107d94914d19891d138cefe97ec6b0b3e",
+    "sha256_in_repo": "2254ae0c0463eefc230bbd4d5dd4e0f107d94914d19891d138cefe97ec6b0b3e",
+    "sanitized": false
+  },
+  {
+    "source": "/home/gns3/ssl-vpn-minimal-20261003/gui-marionette.py",
+    "repository": "scripts/originales/sesion-20261003/gui-marionette.py",
+    "status": "script utilizado o versión final utilizada",
+    "sha256_original": "3344c1e1294724a7fdf19d2ce267124650747e99fbd5b802642ed4292c80554c",
+    "sha256_in_repo": "3344c1e1294724a7fdf19d2ce267124650747e99fbd5b802642ed4292c80554c",
+    "sanitized": false
+  },
+  {
+    "source": "/home/gns3/ssl-vpn-minimal-20261003/web-start-before.sh",
+    "repository": "scripts/originales/sesion-20261003/web-start-before.sh",
+    "status": "script utilizado o versión final utilizada",
+    "sha256_original": "378fa329cbb8b23fd446c600694737076acb3eae6eee923db654cbd2506dbca5",
+    "sha256_in_repo": "378fa329cbb8b23fd446c600694737076acb3eae6eee923db654cbd2506dbca5",
+    "sanitized": false
+  },
+  {
+    "source": "/home/gns3/ssl-vpn-minimal-20261003/web-start-with-ssh.sh",
+    "repository": "scripts/originales/sesion-20261003/web-start-with-ssh.sh",
+    "status": "script utilizado o versión final utilizada",
+    "sha256_original": "c8371dd62a55e09f1f9dc4fd4b2d6a1ec3094db6eb6ae5c1d61c0cbcc94e4f6d",
+    "sha256_in_repo": "c8371dd62a55e09f1f9dc4fd4b2d6a1ec3094db6eb6ae5c1d61c0cbcc94e4f6d",
+    "sanitized": false
+  },
+  {
+    "source": "/home/gns3/ssl-vpn-minimal-20261003/lab-vpn",
+    "repository": "scripts/originales/sesion-20261003/lab-vpn",
+    "status": "script utilizado o versión final utilizada",
+    "sha256_original": "e433856082d26c0a35e01faf8e9581892f12b5a027aa69d88a9972803272b89f",
+    "sha256_in_repo": "e433856082d26c0a35e01faf8e9581892f12b5a027aa69d88a9972803272b89f",
+    "sanitized": false
+  },
+  {
+    "source": "/home/gns3/lab-images/build-browser-gns3vnc.sh",
+    "repository": "scripts/originales/antecedentes/build-browser-gns3vnc.sh",
+    "status": "antecedente encontrado; no ejecutado durante la solución SSL-VPN",
+    "sanitized": false,
+    "sha256_original": "08952631d0038492993ce5e305680982bbe78ce6e4595dfe7fde9ee3fedbd264",
+    "sha256_in_repo": "08952631d0038492993ce5e305680982bbe78ce6e4595dfe7fde9ee3fedbd264"
+  },
+  {
+    "source": "/home/gns3/lab-images/GUI-Forticlient-VPN/build-forticlient-lite.sh",
+    "repository": "scripts/originales/antecedentes/GUI-Forticlient-VPN/build-forticlient-lite.sh",
+    "status": "antecedente encontrado; no ejecutado durante la solución SSL-VPN",
+    "sanitized": false,
+    "sha256_original": "ef4b79318221260b08c0a5cddf0e47c59529d7f19bc3ec1abdf5ca83e1b13800",
+    "sha256_in_repo": "ef4b79318221260b08c0a5cddf0e47c59529d7f19bc3ec1abdf5ca83e1b13800"
+  },
+  {
+    "source": "/home/gns3/lab-images/db/start-network.sh",
+    "repository": "scripts/originales/antecedentes/db/start-network.sh",
+    "status": "antecedente encontrado; no ejecutado durante la solución SSL-VPN",
+    "sanitized": false,
+    "sha256_original": "a5d11343dd61c0ab751a761f64340860abe8330fefb1b6d99de0197f453038fc",
+    "sha256_in_repo": "a5d11343dd61c0ab751a761f64340860abe8330fefb1b6d99de0197f453038fc"
+  },
+  {
+    "source": "/home/gns3/lab-images/db/build-db-server-v2.sh",
+    "repository": "scripts/originales/antecedentes/db/build-db-server-v2.sh",
+    "status": "antecedente encontrado; no ejecutado durante la solución SSL-VPN",
+    "sanitized": true,
+    "sha256_original": "78db77deea3d2a09674059246b5d56d8ce6acaea7aa3862dea6a5225928b6cd7",
+    "sha256_in_repo": "8186d0be7f9b6b9fb3de156008563941e5de3d83f479b1947b231889446ccb9d"
+  },
+  {
+    "source": "/home/gns3/lab-images/db/build-db-server.sh",
+    "repository": "scripts/originales/antecedentes/db/build-db-server.sh",
+    "status": "antecedente encontrado; no ejecutado durante la solución SSL-VPN",
+    "sanitized": true,
+    "sha256_original": "bc82c555f1b141c033a8e06c7c8cad2223e773c4c10a74af40c1912ae85be26f",
+    "sha256_in_repo": "622095f6b20256675bc0b4e0bf5b359508e8eaa629dd62e5527a5bc2d34b0d74"
+  },
+  {
+    "source": "/home/gns3/lab-images/db/Dockerfile",
+    "repository": "scripts/originales/antecedentes/db/Dockerfile",
+    "status": "antecedente encontrado; no ejecutado durante la solución SSL-VPN",
+    "sanitized": true,
+    "sha256_original": "3c36954b7a34334c96618fe525cef7400fd670afe170d8e13afe730c42d96dae",
+    "sha256_in_repo": "a1759966bb022e859eb3ecb9bed1e3a2471f169b469ae75311727db4ae0cbce2"
+  },
+  {
+    "source": "/home/gns3/lab-images/web/start-network.sh",
+    "repository": "scripts/originales/antecedentes/web/start-network.sh",
+    "status": "antecedente encontrado; no ejecutado durante la solución SSL-VPN",
+    "sanitized": false,
+    "sha256_original": "378fa329cbb8b23fd446c600694737076acb3eae6eee923db654cbd2506dbca5",
+    "sha256_in_repo": "378fa329cbb8b23fd446c600694737076acb3eae6eee923db654cbd2506dbca5"
+  },
+  {
+    "source": "/home/gns3/lab-images/web/build-web-server.sh",
+    "repository": "scripts/originales/antecedentes/web/build-web-server.sh",
+    "status": "antecedente encontrado; no ejecutado durante la solución SSL-VPN",
+    "sanitized": true,
+    "sha256_original": "4d9f5c6ac6f12b23f21993b801b90fc222c63f025a824890f458658616493698",
+    "sha256_in_repo": "89e9ae7ab8b684fcaa1c27c7ca07364317c435865d49375ffbe5b01fe45aca79"
+  },
+  {
+    "source": "/home/gns3/lab-images/web/build-web-server-v2.sh",
+    "repository": "scripts/originales/antecedentes/web/build-web-server-v2.sh",
+    "status": "antecedente encontrado; no ejecutado durante la solución SSL-VPN",
+    "sanitized": true,
+    "sha256_original": "4c2e90a4af08d6dddb6f697e1333a0172506f0bc290e1bb6b80bf1026ab04118",
+    "sha256_in_repo": "57f6260fb8b34b69ae44fb2f033729fecbffa626cfa0e143701ac0261b3295bd"
+  },
+  {
+    "source": "/home/gns3/lab-images/web/Dockerfile",
+    "repository": "scripts/originales/antecedentes/web/Dockerfile",
+    "status": "antecedente encontrado; no ejecutado durante la solución SSL-VPN",
+    "sanitized": true,
+    "sha256_original": "b5d78d55993bd880c62cb1d6a07c779ff06b68bc6d6e829ba08e093bdcc74782",
+    "sha256_in_repo": "e8ff0820d3b147033884ad70a5ec86b03094da781627954d33d64b154e531be9"
+  },
+  {
+    "source": "/home/gns3/lab-images/forticlient-lite/Dockerfile",
+    "repository": "scripts/originales/antecedentes/forticlient-lite/Dockerfile",
+    "status": "antecedente encontrado; no ejecutado durante la solución SSL-VPN",
+    "sanitized": false,
+    "sha256_original": "8f39884a92505e5613119d1bf63742f5e16d76844c6cb715e513dcfc8b6cf627",
+    "sha256_in_repo": "8f39884a92505e5613119d1bf63742f5e16d76844c6cb715e513dcfc8b6cf627"
+  },
+  {
+    "source": "/home/gns3/lab-images/forticlient-lite/start.sh",
+    "repository": "scripts/originales/antecedentes/forticlient-lite/start.sh",
+    "status": "antecedente encontrado; no ejecutado durante la solución SSL-VPN",
+    "sanitized": false,
+    "sha256_original": "bd5bc1c1d41a019887e237ab312adba8ff08447902db4cac770a0527062a3369",
+    "sha256_in_repo": "bd5bc1c1d41a019887e237ab312adba8ff08447902db4cac770a0527062a3369"
+  },
+  {
+    "source": "/home/gns3/lab-images/browser-vnc/start-network.sh",
+    "repository": "scripts/originales/antecedentes/browser-vnc/start-network.sh",
+    "status": "antecedente encontrado; no ejecutado durante la solución SSL-VPN",
+    "sanitized": false,
+    "sha256_original": "48a20be37028988cf360352b18a44099680402dccc3c9b897e75f2857a46a31f",
+    "sha256_in_repo": "48a20be37028988cf360352b18a44099680402dccc3c9b897e75f2857a46a31f"
+  },
+  {
+    "source": "/home/gns3/lab-images/browser-vnc/Dockerfile",
+    "repository": "scripts/originales/antecedentes/browser-vnc/Dockerfile",
+    "status": "antecedente encontrado; no ejecutado durante la solución SSL-VPN",
+    "sanitized": false,
+    "sha256_original": "9fb1fcd6f87a9eb46415a19ae981a385d8ca3b313649825adf80cc65921f1a80",
+    "sha256_in_repo": "9fb1fcd6f87a9eb46415a19ae981a385d8ca3b313649825adf80cc65921f1a80"
+  },
+  {
+    "source": "/home/gns3/lab-images/forticlient70/Dockerfile",
+    "repository": "scripts/originales/antecedentes/forticlient70/Dockerfile",
+    "status": "antecedente encontrado; no ejecutado durante la solución SSL-VPN",
+    "sanitized": false,
+    "sha256_original": "4c9c251a9c6f0641d6e8c40f80009c0a6cb9e17c3781910fa9baea8bc7f64f75",
+    "sha256_in_repo": "4c9c251a9c6f0641d6e8c40f80009c0a6cb9e17c3781910fa9baea8bc7f64f75"
+  },
+  {
+    "source": "/home/gns3/lab-images/forticlient70/start.sh",
+    "repository": "scripts/originales/antecedentes/forticlient70/start.sh",
+    "status": "antecedente encontrado; no ejecutado durante la solución SSL-VPN",
+    "sanitized": false,
+    "sha256_original": "c81151be17f0d0f7e1ef97c7cd5b985376f9d58a75cbe0bdab1ca20fbccdbacb",
+    "sha256_in_repo": "c81151be17f0d0f7e1ef97c7cd5b985376f9d58a75cbe0bdab1ca20fbccdbacb"
+  },
+  {
+    "source": "/home/gns3/lab-images/Browser-VNC-V2/build-browser-gns3vnc-v2.ah",
+    "repository": "scripts/originales/antecedentes/Browser-VNC-V2/build-browser-gns3vnc-v2.ah",
+    "status": "antecedente encontrado; no ejecutado durante la solución SSL-VPN",
+    "sanitized": false,
+    "sha256_original": "abc9fd34b896c4a83118b883072e9b837e47450fab2604e3ea1783f9183cf0ef",
+    "sha256_in_repo": "abc9fd34b896c4a83118b883072e9b837e47450fab2604e3ea1783f9183cf0ef"
+  },
+  {
+    "source": "/home/gns3/RECUPERAR_INFRA3.sh",
+    "repository": "scripts/originales/antecedentes/RECUPERAR_INFRA3.sh",
+    "status": "antecedente encontrado; no ejecutado durante la solución SSL-VPN",
+    "sha256_original": "49d6e08c45bab71f8988dde7dc66ce400a351a1e3739896a543749b469c4c9f9",
+    "sha256_in_repo": "49d6e08c45bab71f8988dde7dc66ce400a351a1e3739896a543749b469c4c9f9",
+    "sanitized": false
+  },
+  {
+    "source": "/home/gns3/build-forticlient-vpn-final.sh",
+    "repository": "scripts/originales/antecedentes/build-forticlient-vpn-final.sh",
+    "status": "antecedente encontrado; no ejecutado durante la solución SSL-VPN",
+    "sha256_original": "703f4138a4f1a797e6d1e35a64b9b6a383fa4f28560ed7426e0245cdf25006a0",
+    "sha256_in_repo": "703f4138a4f1a797e6d1e35a64b9b6a383fa4f28560ed7426e0245cdf25006a0",
+    "sanitized": false
+  }
+]

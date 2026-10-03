@@ -1,0 +1,4 @@
+VPN: CONNECTED (openfortivpn)
+ppp0             UNKNOWN        10.212.134.200 peer 169.254.2.1/32 
+10.21.75.130 dev ppp0 src 10.212.134.200 uid 0 
+    cache 

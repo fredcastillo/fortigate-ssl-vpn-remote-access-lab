@@ -1,0 +1,5 @@
+{
+  "protocol": "TLSv1",
+  "cipher": "ECDHE-RSA-AES256-SHA",
+  "certificate_sha256": "286efc05555bc05560acbbb14928b35b93b7da0e6a47e1a6701bc983704f1190"
+}

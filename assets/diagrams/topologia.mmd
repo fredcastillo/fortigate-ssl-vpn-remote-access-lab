@@ -1,0 +1,8 @@
+flowchart LR
+  C[Cliente VPN VLAN 10] --> S[Switch-A]
+  B[Browser Usuarios] --> S
+  S --> R[R1-CISCO-VPN]
+  R --> I[Router-ISP]
+  I --> F[FortiGate-B]
+  F --> W[Servidor 10.21.75.130/28]
+  C -. SSL-VPN TCP 10443 .-> F

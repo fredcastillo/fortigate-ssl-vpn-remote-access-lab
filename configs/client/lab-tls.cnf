@@ -1,0 +1,13 @@
+# Compatibility with this isolated FortiGate evaluation endpoint only.
+openssl_conf = openssl_init
+
+[openssl_init]
+ssl_conf = ssl_settings
+
+[ssl_settings]
+system_default = lab_ssl
+
+[lab_ssl]
+MinProtocol = TLSv1
+MaxProtocol = TLSv1
+CipherString = DEFAULT:@SECLEVEL=0

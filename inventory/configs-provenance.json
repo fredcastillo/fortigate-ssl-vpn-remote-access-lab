@@ -1,0 +1,35 @@
+[
+  {
+    "file": "configs/fortigate/running-config.sanitized.conf",
+    "collection_method": "Nueve consultas show individuales de interfaces, rutas, objetos, VIP, políticas, VPN y usuarios; solo lectura",
+    "collected_date_utc": "2026-10-03",
+    "complete_running_export": false,
+    "secrets_redacted": true,
+    "sha256": "b72406541aaff562799ecbc6677599012e1f82428cdf8487d4b9e9c55be0e41e",
+    "complete_academic_sections": true
+  },
+  {
+    "file": "configs/cisco/R1-CISCO-VPN.running-config.txt",
+    "collection_method": "SSH desde red del cliente: show running-config",
+    "collected_date_utc": "2026-10-03",
+    "complete_running_export": true,
+    "secrets_redacted": true,
+    "sha256": "fd41a915138bf08b9cd49962c0b745453bcc4adb8901046a0dcabb527d48bf04"
+  },
+  {
+    "file": "configs/cisco/Router-ISP.running-config.txt",
+    "collection_method": "Telnet desde red del cliente: show running-config",
+    "collected_date_utc": "2026-10-03",
+    "complete_running_export": true,
+    "secrets_redacted": true,
+    "sha256": "6317679c1067fc0db9e02758975d3dbeb4e5dcbe32947d8802fc7465d70b1606"
+  },
+  {
+    "file": "configs/switch/Switch-A.running-config.txt",
+    "collection_method": "Consola local: show running-config",
+    "collected_date_utc": "2026-10-03",
+    "complete_running_export": true,
+    "secrets_redacted": true,
+    "sha256": "32ca2a5dfee6c0eac47ca5a0040d86099c082967f3fddec0ba7b8b28d5a81713"
+  }
+]

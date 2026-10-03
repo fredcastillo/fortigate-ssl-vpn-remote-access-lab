@@ -1,0 +1,24 @@
+
+R1-CISCO-VPN#
+show ip dhcp binding
+Bindings from all pools not associated with VRF:
+IP address      Client-ID/ 		Lease expiration 	Type       State      Interface
+		Hardware address/
+		User name
+10.21.75.10     0242.11be.2100          Oct 03 2026 09:21 PM    Automatic  Active     GigabitEthernet2/0
+R1-CISCO-VPN#
+show ip interface brief
+Interface              IP-Address      OK? Method Status                Protocol
+FastEthernet0/0        unassigned      YES NVRAM  administratively down down    
+GigabitEthernet1/0     203.0.113.21    YES NVRAM  up                    up      
+GigabitEthernet2/0     10.21.75.1      YES NVRAM  up                    up      
+FastEthernet3/0        unassigned      YES NVRAM  administratively down down    
+FastEthernet3/1        unassigned      YES NVRAM  administratively down down    
+FastEthernet4/0        unassigned      YES NVRAM  administratively down down    
+FastEthernet4/1        unassigned      YES NVRAM  administratively down down    
+FastEthernet5/0        unassigned      YES NVRAM  administratively down down    
+FastEthernet5/1        unassigned      YES NVRAM  administratively down down    
+R1-CISCO-VPN#
+show crypto ipsec sa
+No SAs found
+R1-CISCO-VPN#

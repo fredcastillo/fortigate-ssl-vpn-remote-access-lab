@@ -1,0 +1,20 @@
+[
+  {
+    "source": "https://archive.ubuntu.com/ubuntu/pool/universe/o/openfortivpn/openfortivpn_1.17.1-1build1_amd64.deb",
+    "file": "openfortivpn_1.17.1-1build1_amd64.deb",
+    "size": 55736,
+    "sha256": "1148a13c189188b28d476bcf3a0b85c1b67458416c7b0b3355729fff5b0cc181"
+  },
+  {
+    "source": "https://archive.ubuntu.com/ubuntu/pool/main/p/ppp/ppp_2.4.9-1+1ubuntu3_amd64.deb",
+    "file": "ppp_2.4.9-1+1ubuntu3_amd64.deb",
+    "size": 362856,
+    "sha256": "81170b630bfdb20b8f7990f52223fd56e68bcb95fa5e2b985f9d789570f99044"
+  },
+  {
+    "source": "https://archive.ubuntu.com/ubuntu/pool/main/libp/libpcap/libpcap0.8_1.10.1-4ubuntu1.22.04.2_amd64.deb",
+    "file": "libpcap0.8_1.10.1-4ubuntu1.22.04.2_amd64.deb",
+    "size": 145454,
+    "sha256": "ed84d273eaa990737109b37d5b30403e7c7f394ae59e20904cec0f63debfe3fe"
+  }
+]
